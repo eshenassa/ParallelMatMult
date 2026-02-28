@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Wall -std=c++20
+CFLAGS = -Wall -pthread -std=c++20
 
 TARGET = matmult
 SRC = runner.cpp Matrix.cpp
