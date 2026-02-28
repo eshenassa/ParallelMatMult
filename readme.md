@@ -1,7 +1,7 @@
 This is my attempt at a simple multithreaded matrix multiplication program in C++. 
 The program will generate two matrices of the given sizes (matrices are filled with random doubles in range [-100, 100]) and multiply them twice: once sequentially, and one in parallel, and compare the times.
 
-USAGE: ./matmult <nrows1> <ncols1> <nrows2> <ncols2> <nthreads>
+USAGE: ./matmult \<nrows1\> \<ncols1\> \<nrows2\> \<ncols2\> \<nthreads\>
 Where nrows1 is the number of rows of the first matrix, etc.
 Note: ncols1 and nrows2 must be the same for multiplication to work!
 
